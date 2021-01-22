@@ -2,5 +2,5 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  {foo: "hi hello" }.to_json
+  JSON.generate({foo: "hi hello" })
 end
