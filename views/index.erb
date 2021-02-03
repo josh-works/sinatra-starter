@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-
-</head>
-<body>
-  <header>
-    A Baby Sinatra Application
-  </header>
-    <h1>This line of text should be punchy and exciting!</h1>
-    <p>My super secret message:</p>
-    <div class="">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>A Baby Sinatra Application</title>
+      <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="content">
+      <h1>This line of text should be punchy and exciting!</h1>
+      <p>My super secret message:</p>
       <%= @message %>
+      <p>Here's a random row of a spreadsheet:</p>
+        <%= @random_row %>
+      
     </div>
-    
-    <div class="">
-      <%= @random_row %>
-    </div>
-    
-    <br>
-    <footer style="font-size:small;">
+    <footer>
       <ul>
         <li>Built with ❤ by <a href="https://twitter.com/josh_works">Josh Thompson</a></li>
         <li><a href="https://github.com/josh-works/sinatra-starter/tree/main">Git Repo</a></li>
-        <li>A learning Project from <a href="https://intermediateruby.com/">Intermediate Ruby</a></li>
+        <li>A Sinatra learning Project from <a href="https://intermediateruby.com/sinatra-basics">Intermediate Ruby</a></li>
         <li>A few today-i-learned entries for this project: <a href="https://github.com/josh-works/til/tree/main/sinatra">til/sinatra</a></li>
       </ul>
     </footer>
-</body>
+  </div>  
+  </body>
 </html>

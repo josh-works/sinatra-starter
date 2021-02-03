@@ -11,6 +11,6 @@ And... I've done that. I can now do all of the above steps in about fifteen minu
 
 Things I wrote as I made this tiny app:
 
-- [https://intermediateruby.com/sinatra-basics](https://intermediateruby.com/sinatra-basics)
+- [Sinatra Basics: part 1 (Intermediatruby.com)](https://intermediateruby.com/sinatra-basics)
 - [github.com/josh-works/til/sinatra](https://github.com/josh-works/til/tree/main/sinatra)
 

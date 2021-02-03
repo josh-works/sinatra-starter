@@ -1,0 +1,25 @@
+/* * {
+  outline: 1px dashed red;
+} */
+
+.container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+  overflow: auto;
+  align-self: stretch;
+}
+
+footer {
+  font-size:small;
+  text-align: center;
+  
+}
+
+footer ul {
+  list-style-type: none;
+}
